@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+tensorflow-cpu = "==2.3.3"
+numpy = "*"
+mtcnn = "*"
+waitress = "*"
+cloudinary = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
