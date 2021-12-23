@@ -22,7 +22,6 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-# add buildpack
 # with open('model/faceshape_model.json', 'r') as json_file:
 #     json_savedModel = json_file.read()
 # model = tf.keras.models.model_from_json(json_savedModel)
